@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35825.156 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DittoBox.ApiGateway", "DittoBox.ApiGateway\DittoBox.ApiGateway.csproj", "{13BCC612-9373-40A4-A1ED-8F0E9F82DE43}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{13BCC612-9373-40A4-A1ED-8F0E9F82DE43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13BCC612-9373-40A4-A1ED-8F0E9F82DE43}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13BCC612-9373-40A4-A1ED-8F0E9F82DE43}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13BCC612-9373-40A4-A1ED-8F0E9F82DE43}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6939F5C7-94DD-496B-845E-11B42056BC04}
+	EndGlobalSection
+EndGlobal
