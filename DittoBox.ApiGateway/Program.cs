@@ -6,9 +6,11 @@ builder.Services.AddReverseProxy()
 
 var app = builder.Build();
 
+
 app.MapGet("/health", () => Results.Ok(new { status = "Healthy" }));
 
 // Enable routing via YARP
 app.MapReverseProxy();
 
+app.UseCors("AllowAll");
 app.Run();
